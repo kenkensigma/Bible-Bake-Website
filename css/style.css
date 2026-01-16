@@ -1,0 +1,25 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    body {
+      background: #F8B9DB;
+      min-height: 100vh;
+      color: white;
+    }
+
+    .font-display {
+      font-family: 'Pacifico', cursive;
+    }
+    
+    header h1{
+        font-size: ;
+        font-family: 'Pacifico', cursive;
+        color: #F05EA8;
+        background-color: #fff;
+        
+    }
+    
