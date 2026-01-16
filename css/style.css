@@ -14,12 +14,17 @@
     .font-display {
       font-family: 'Pacifico', cursive;
     }
-    
+
+    nav{
+        position: sticky;
+        top: 0;
+        background-color: #FFFFFF;
+    }
+
     header h1{
-        font-size: ;
+        font-size: 41px;
         font-family: 'Pacifico', cursive;
         color: #F05EA8;
-        background-color: #fff;
-        
+        text-align: center;
     }
     
