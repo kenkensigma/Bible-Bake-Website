@@ -9,6 +9,7 @@
       background: #F8B9DB;
       min-height: 100vh;
       color: white;
+      overflow: hidden;
     }
 
     .font-display {
@@ -81,6 +82,7 @@
       grid-template-columns: 1fr;
       gap: 3rem;
       max-width: 1200px;
+      display: flex;
     }
 
         .hero-text {
@@ -101,7 +103,7 @@
 
     .hero-title {
       font-size: 4rem;
-      background: linear-gradient(135deg, #fce7f3, #fffdfe, #ffd1d6);
+      background: linear-gradient(135deg, #fce7f3, #fffdfe, #fda4af);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -159,3 +161,44 @@
       background: #fce7f3;
       color: #831843;
     }
+
+    .hero-visual {
+    position: relative;
+    width: 520px;
+    height: 420px;
+    display: flex;
+    left: 200px;
+    bottom: 50px;
+}
+
+.bg-card {
+    position: absolute;
+    top: -10px;
+    left: -40px;
+    width: 600px;
+    height: 480px;
+    border-radius: 36px;
+    overflow: hidden;
+}
+
+.bg-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-card {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    width: 600px;
+    height: 480px;
+    border-radius: 36px;
+    overflow: hidden;
+}
+
+.main-card img {
+    width: 100%;
+    height: auto;
+    transform: translateY(-40px);
+}
